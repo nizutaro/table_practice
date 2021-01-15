@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/copy.css" />
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <table class="sample">
+      <thead>
+        <th colspan="2">th1</th>
+        <th>th2</th>
+        <th>th3</th>
+        <th>th4</th>
+      </thead>
+      <th rowspan="7">th5</th>
+
+      <tr>
+        <th class="table__th">セルA1</th>
+        <td>
+          セルA2
+          <form>
+            <input type="text" name="mnt" value="0" size="6" min="0" />
+            <input
+              type="button"
+              value="－"
+              onClick="javascript:this.form.mnt.value--;"
+            />
+            <input
+              type="button"
+              value="＋"
+              onClick="javascript:this.form.mnt.value++;"
+            />
+          </form>
+        </td>
+          <td>
+        <form action="xxx.php" method="post">
+
+            セルA3
+            <input
+              type="number"
+              name="ninzu"
+              min="1"
+              max="4"
+            />　※1人以上4人以下<br />
+          </td>
+        </form>
+
+          <td>セルA4</td>
+      </tr>
+      <tr>
+        <th>セルB1</th>
+        <td>セルB2</td>
+        <td>セルB3</td>
+        <td>セルB4</td>
+      </tr>
+      <tr>
+        <th>セルC1</th>
+        <td>セルC2</td>
+        <td>セルC3</td>
+        <td>セルC4</td>
+      </tr>
+      <tr>
+        <th>セルD1</th>
+        <td>セルD2</td>
+        <td>セルD3</td>
+        <td>セルD4</td>
+      </tr>
+      <tr>
+        <th>セルE1</th>
+        <td>セルE2</td>
+        <td>セルE3</td>
+        <td>セルE4</td>
+      </tr>
+
+      <tr>
+        <th>セルF1</th>
+        <td>セルF2</td>
+        <td>セルF3</td>
+        <td>セルF4</td>
+      </tr>
+    </table>
+  </body>
+  <script type="text/javascript" src="js/copy.js"></script>
+</html>

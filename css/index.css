@@ -1,0 +1,24 @@
+.item {
+  border: solid 1px;
+}
+
+.item__th {
+  border: solid 1px;
+  background-color: blue;
+}
+
+.item__cell {
+  border: solid 1px skyblue;
+}
+
+.item--th {
+  border: solid 1px;
+}
+
+.item__tr {
+  background-color: coral;
+}
+
+.item__td {
+  width: 100px;
+}

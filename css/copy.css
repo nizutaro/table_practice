@@ -1,0 +1,18 @@
+table.sample {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.sample th {
+  border: 1px solid #b9b9b9;
+  background-color: #cacaca;
+  padding: 3px;
+}
+table.sample td {
+  border: 1px solid #b9b9b9;
+  text-align: center;
+  padding: 3px;
+}
+
+tr:hover {
+  background-color: #fffbb7;
+}
